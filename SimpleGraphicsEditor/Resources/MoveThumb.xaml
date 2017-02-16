@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:SimpleGraphicsEditor"
+                    xmlns:thumbcontrollers="clr-namespace:SimpleGraphicsEditor.CustomControllers.CustomThumbs">
+
+    <ControlTemplate x:Key="MoveThumbTemplate" TargetType="{x:Type thumbcontrollers:MoveThumb}">
+        <Rectangle Fill="Transparent"/>
+    </ControlTemplate>
+
+</ResourceDictionary>
